@@ -33,4 +33,19 @@ Ce projet contient un programme en C qui effectue diverses opérations liées à
 
 - Pour supprimer les fichiers objets et l'exécutable générés, exécute la commande `make clean`.
 
-N'hésite pas à ajuster le contenu du fichier README en fonction des spécificités de ton projet. Bonne utilisation du programme !
+## Documentation des fonctions
+
+### Fonction : calculerAdresse()
+
+```c
+void calculerAdresse(char* adresseIP, int masque, char* resultat); 
+```
+**Cette fonction prend une adresse IP sous la forme d'une chaîne de caractères, un masque de sous-réseau et renvoie le résultat du calcul de l'adresse correspondante dans la variable resultat. Les paramètres d'entrée sont les suivants :
+
+- `adresseIP` : la chaîne de caractères représentant l'adresse IP.
+- `masque` : le masque de sous-réseau.
+
+
+
+
+
