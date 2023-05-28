@@ -1,6 +1,6 @@
 # Mini Projet C
 
-Ce projet contient un programme en C qui effectue diverses opérations liées à l'adressage IP.
+Ce projet contient un programme en C qui effectue diverses opérations liées à l'adressage IP. 
 
 ## Objectif de l'application
 
