@@ -141,7 +141,7 @@ La fonction extrait les octets et le masque de l'adresse IP en utilisant la fonc
 
 Pour plus de détails sur l'implémentation et l'utilisation des fonctions, veuillez consulter le code source des fichiers correspondants.
 
-Le code source de l'application est disponible dans le dépôt Git suivant : [insérer le lien vers votre dépôt Git ici]
+Le code source de l'application est disponible dans le dépôt Git suivant : https://github.com/TanyXxx/Sujet2_HAMADOUCHE_LAM_CARIELLO_RUYLOFT.git
 
 
 
