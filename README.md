@@ -2,6 +2,17 @@
 
 Ce projet contient un programme en C qui effectue diverses opérations liées à l'adressage IP.
 
+## Objectif de l'application
+
+L'objectif de cette application est de fournir diverses fonctionnalités liées à l'adressage IP, telles que le calcul d'adresse, le décodage d'adresse IP, l'extraction des champs d'une adresse IP et la vérification du format d'une adresse IP.
+
+## Auteurs
+
+- Nom & Prénom 1 : Hamadouche Soltan
+- Nom & Prénom 2 : Lam Clément
+- Nom & Prénom 3 : Ruyloft Joppe
+- Nom & Prénom 4 : Cariello Luppo
+
 ## Contenu du projet
 
 - `main.c` : Le fichier source principal contenant la fonction `main()` qui exécute le programme.
@@ -113,6 +124,17 @@ Cette fonction détermine la classe d'une adresse IP en analysant le premier oct
 
 La fonction extrait le premier octet de l'adresse IP en utilisant la fonction `sscanf`. Ensuite, elle effectue des vérifications pour déterminer la classe d'adresse IP en utilisant des conditions. La classe d'adresse IP est renvoyée sous la forme d'une valeur de l'énumération `ClasseAdresseIP`.
 
+### Fonction : calculeradressereseau()
+
+```c
+void calculeradressereseau(const char* ip_adresse, char* adresse_reseau);
+```
+Cette fonction calcule l'adresse réseau à partir d'une adresse IP donnée. Elle prend en paramètre une adresse IP sous la forme d'une chaîne de caractères et une variable `adresse_reseau` pour stocker l'adresse réseau calculée. Les paramètres d'entrée de cette fonction sont les suivants :
+
+- `ip_adresse` : une chaîne de caractères représentant l'adresse IP.
+- `adresse_reseau` : un tableau de caractères qui sera utilisé pour stocker l'adresse réseau calculée.
+
+La fonction extrait les octets et le masque de l'adresse IP en utilisant la fonction `extraire_champs_ip`. Ensuite, elle effectue des opérations pour calculer l'adresse réseau en appliquant le masque binaire. L'adresse réseau calculée est stockée dans le tableau `adresse_reseau`.
 
 ## Cas d'erreur
 - Si une adresse IP invalide est fournie en entrée, les fonctions peuvent afficher un message d'erreur approprié ou retourner une valeur indiquant une erreur.
