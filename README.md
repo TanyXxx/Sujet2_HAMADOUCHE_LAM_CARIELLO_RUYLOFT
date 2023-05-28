@@ -1,4 +1,4 @@
-# Projet XYZ
+# Mini Projet C
 
 Ce projet contient un programme en C qui effectue diverses opérations liées à l'adressage IP.
 
@@ -40,11 +40,18 @@ Ce projet contient un programme en C qui effectue diverses opérations liées à
 ```c
 void calculerAdresse(char* adresseIP, int masque, char* resultat); 
 ```
-**Cette fonction prend une adresse IP sous la forme d'une chaîne de caractères, un masque de sous-réseau et renvoie le résultat du calcul de l'adresse correspondante dans la variable resultat. Les paramètres d'entrée sont les suivants :
+Cette fonction prend une adresse IP sous la forme d'une chaîne de caractères, un masque de sous-réseau et renvoie le résultat du calcul de l'adresse correspondante dans la variable `resultat`. Les paramètres d'entrée sont les suivants :
 
 - `adresseIP` : la chaîne de caractères représentant l'adresse IP.
 - `masque` : le masque de sous-réseau.
-**
+- 
+### Fonction : decoderIP()
+
+```c
+void decoderIP(char* adresseIP, int* octet1, int* octet2, int* octet3, int* octet4);
+```
+Cette fonction prend une adresse IP sous la forme d'une chaîne de caractères et décode les octets de l'adresse IP dans les variables `octet1`, octet2, octet3 et octet4. Les paramètres d'entrée sont les suivants :
+
 
 
 
