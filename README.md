@@ -44,6 +44,7 @@ void calculerAdresse(char* adresseIP, int masque, char* resultat);
 
 - `adresseIP` : la chaîne de caractères représentant l'adresse IP.
 - `masque` : le masque de sous-réseau.
+**
 
 
 
